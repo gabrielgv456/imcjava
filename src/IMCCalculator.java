@@ -9,7 +9,7 @@ public class IMCCalculator {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
 
-        JLabel pesoLabel = new JLabel("Peso: ");
+        JLabel pesoLabel = new JLabel("Peso (kg): ");
         pesoLabel.setBounds(50, 50, 100, 30);
         frame.add(pesoLabel);
 
@@ -17,7 +17,7 @@ public class IMCCalculator {
         pesoField.setBounds(150, 50, 150, 30);
         frame.add(pesoField);
 
-        JLabel alturaLabel = new JLabel("Altura: ");
+        JLabel alturaLabel = new JLabel("Altura (m): ");
         alturaLabel.setBounds(50, 100, 100, 30);
         frame.add(alturaLabel);
 
